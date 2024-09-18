@@ -1,4 +1,4 @@
-async function vaild(/* 2.ctx即为文档中context对象 */ ctx, next) {
+async function valid(/* 2.ctx即为文档中context对象 */ ctx, next) {
     //3.ctx.request 即为文档中的request对象
     //4.ctx.response即为文档中的response对象
     if (true) {
@@ -9,5 +9,5 @@ async function vaild(/* 2.ctx即为文档中context对象 */ ctx, next) {
   };
 
   export{
-    vaild
+    valid
   }

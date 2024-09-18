@@ -1,6 +1,6 @@
 import Koa from "koa";
 import router from './src/router';
-ipmort {vaild} from './src/middleware/vaild.js';
+import {valid} from './src/middleware/vaild.js';
 
 //1. server即为文档中的application对象
 const server = new Koa();
