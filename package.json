@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "koa": "^2.15.3",
-    "koa-router": "^13.0.1"
+    "koa-router": "^13.0.1",
+    "node": "^22.9.0"
   },
   "type": "module"
 }
